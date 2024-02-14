@@ -1,0 +1,63 @@
+.container-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 5px;
+    row-gap: 30px;
+    padding: 10px 40px;
+}
+.course-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.course-card {
+    width: 220px;
+    height: 320px;
+    background-color: #F8F9F9;
+    flex: 250px;
+}
+
+.course-name {
+    text-align: center;
+}
+
+.course-description {
+    margin: 10px 0px;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+.details {
+    display: flex;
+    margin: 10px 0px;
+}
+
+.course-type {
+    width: 50%;
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+.course-buttons {
+    display: flex;
+    gap: 10px;
+    margin-left: 5px;
+}
+
+.btn {
+    padding: 3px 5px;
+    border-radius: 5px;   
+    border: none;
+    background-color: #70adc8;
+}
+
+@media screen and (max-width: 600px) {
+    .container-div{
+        column-gap: 1px;
+        row-gap: 20px;
+        padding: 5px 80px;
+    }
+}
